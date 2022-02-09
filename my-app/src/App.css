@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-color: white;
+  
+}
+
+
+
+.app_container {
+  max-width: 2175px;
+  margin: auto;
+  justify-content: center;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: solid black 2px;
+  width: 175px;
+  margin: auto;
+}
+
+
+

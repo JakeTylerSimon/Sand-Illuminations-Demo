@@ -1,0 +1,26 @@
+.product {
+    background-color: rgb(214, 214, 214);
+    
+}
+
+h2 {
+    padding: 20px;
+}
+
+.product_info {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.product_image {
+    width: 300px;
+}
+
+.product_button {
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+

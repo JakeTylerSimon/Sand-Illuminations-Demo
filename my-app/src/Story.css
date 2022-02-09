@@ -1,0 +1,41 @@
+.card {
+    min-width: 200px;
+    max-width: 500px;
+    display: flex;
+    padding: 5px 5px;
+    margin: 10px;    
+}
+
+.creator_container > .card {
+    max-width: 700px;
+}
+
+.creator {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px; 
+}
+
+p {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}

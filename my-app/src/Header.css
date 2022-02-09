@@ -1,0 +1,58 @@
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /*background-color: rgb(173, 173, 173); */
+    background-color: rgb(232, 232, 232);
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo {
+    height: 70px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 1px;
+}
+
+
+.header_optionLineOne {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.header_basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.header_option:hover {
+    background-color: gold;
+    text-decoration: none;
+    color: black;
+}
+
+.header_optionBasket:hover {
+    background-color: gold;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
